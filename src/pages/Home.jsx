@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
       <Banner onPick={(m) => setPicked(m)} />
 
-      <div className="pt-10 pb-20">
+      <div className="pt-6 pb-20">
         <Row
           title="Trending Now"
           fetchPath={requests.trendingAll}
