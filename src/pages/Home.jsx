@@ -2,7 +2,7 @@ import { useState } from "react";
 import Navbar from "../components/Navbar";
 import Banner from "../components/Banner";
 import Row from "../components/Row";
-import MovieModal from "../components/MovieModal";
+import MovieModal from "../components/MovieModel";
 import { requests } from "../api/tmdb";
 
 export default function Home() {
@@ -13,7 +13,7 @@ export default function Home() {
       <Navbar />
       <Banner onPick={(m) => setPicked(m)} />
 
-      <div className="pb-16">
+      <div className="pt-10 pb-20">
         <Row
           title="Trending Now"
           fetchPath={requests.trendingAll}

@@ -1,6 +1,6 @@
 import { useMemo, useState } from "react";
 import Navbar from "../components/Navbar";
-import MovieModal from "../components/MovieModal";
+import MovieModal from "../components/MovieModel";
 import { tmdbGet, imgUrl } from "../api/tmdb";
 
 export default function Search() {
